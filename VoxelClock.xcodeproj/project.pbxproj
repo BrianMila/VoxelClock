@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43799C1C4071606266E99D74 /* VoxelClockRealityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC99446147F7155F1028AB84 /* VoxelClockRealityView.swift */; };
+		6615EAC6C69A0803BCDA5BCE /* VoxelClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A7BD51F726C1219DE4E6EB /* VoxelClockApp.swift */; };
+		C46FF3C8DE748EB2829D1BE9 /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F71D05074A50C1DBB314F /* ClockViewModel.swift */; };
+		DD242F5A2EE42D5B6A30F884 /* DigitFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323781BFFD3188E5E16FEE9F /* DigitFont.swift */; };
+		FF564027C8B4397B6B49F631 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218401835057060DE34EE98D /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		218401835057060DE34EE98D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		323781BFFD3188E5E16FEE9F /* DigitFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitFont.swift; sourceTree = "<group>"; };
+		3919419D0F831B5DCA0CE0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		57A7BD51F726C1219DE4E6EB /* VoxelClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoxelClockApp.swift; sourceTree = "<group>"; };
+		615420ED939712010ABA1DCE /* VoxelClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoxelClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4F71D05074A50C1DBB314F /* ClockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewModel.swift; sourceTree = "<group>"; };
+		DC99446147F7155F1028AB84 /* VoxelClockRealityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoxelClockRealityView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6E1B11564C6AB179F98E30B9 = {
+			isa = PBXGroup;
+			children = (
+				6E59A009001FA005704D6A5B /* VoxelClock */,
+				E7E1016E7C063267A8678D00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E59A009001FA005704D6A5B /* VoxelClock */ = {
+			isa = PBXGroup;
+			children = (
+				9B4F71D05074A50C1DBB314F /* ClockViewModel.swift */,
+				218401835057060DE34EE98D /* ContentView.swift */,
+				323781BFFD3188E5E16FEE9F /* DigitFont.swift */,
+				3919419D0F831B5DCA0CE0C1 /* Info.plist */,
+				57A7BD51F726C1219DE4E6EB /* VoxelClockApp.swift */,
+				DC99446147F7155F1028AB84 /* VoxelClockRealityView.swift */,
+			);
+			name = VoxelClock;
+			path = Sources/VoxelClock;
+			sourceTree = "<group>";
+		};
+		E7E1016E7C063267A8678D00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				615420ED939712010ABA1DCE /* VoxelClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		987A6C22189786478C030A63 /* VoxelClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB4EAD8512CBEA99205C9308 /* Build configuration list for PBXNativeTarget "VoxelClock" */;
+			buildPhases = (
+				E3EB02FDC1508DACCEE0D201 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoxelClock;
+			packageProductDependencies = (
+			);
+			productName = VoxelClock;
+			productReference = 615420ED939712010ABA1DCE /* VoxelClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF35F978192C32E50F6C61FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = FBDD9713FEA44820674EBF7A /* Build configuration list for PBXProject "VoxelClock" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6E1B11564C6AB179F98E30B9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E7E1016E7C063267A8678D00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				987A6C22189786478C030A63 /* VoxelClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3EB02FDC1508DACCEE0D201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46FF3C8DE748EB2829D1BE9 /* ClockViewModel.swift in Sources */,
+				FF564027C8B4397B6B49F631 /* ContentView.swift in Sources */,
+				DD242F5A2EE42D5B6A30F884 /* DigitFont.swift in Sources */,
+				6615EAC6C69A0803BCDA5BCE /* VoxelClockApp.swift in Sources */,
+				43799C1C4071606266E99D74 /* VoxelClockRealityView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2647448460320D52B736719C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M4JY7F28C2;
+				INFOPLIST_FILE = Sources/VoxelClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lextech.VoxelClock;
+				SDKROOT = xros;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		6CAD9D39A43A9048828E5F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M4JY7F28C2;
+				INFOPLIST_FILE = Sources/VoxelClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lextech.VoxelClock;
+				SDKROOT = xros;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		7C19AA17C9ADF0E13E7EB879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		9B9DE9A6DB2FC81DBDFD277B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB4EAD8512CBEA99205C9308 /* Build configuration list for PBXNativeTarget "VoxelClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CAD9D39A43A9048828E5F20 /* Debug */,
+				2647448460320D52B736719C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FBDD9713FEA44820674EBF7A /* Build configuration list for PBXProject "VoxelClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C19AA17C9ADF0E13E7EB879 /* Debug */,
+				9B9DE9A6DB2FC81DBDFD277B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF35F978192C32E50F6C61FE /* Project object */;
+}

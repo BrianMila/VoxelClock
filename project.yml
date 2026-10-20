@@ -1,0 +1,25 @@
+name: VoxelClock
+options:
+  bundleIdPrefix: com.lextech
+  deploymentTarget:
+    visionOS: "2.0"
+
+targets:
+  VoxelClock:
+    type: application
+    platform: visionOS
+    deploymentTarget: "2.0"
+    sources:
+      - Sources/VoxelClock
+    info:
+      path: Sources/VoxelClock/Info.plist
+      properties:
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationPreferredDefaultSceneSessionRole: UIWindowSceneSessionRoleVolumetricApplication
+          UIApplicationSupportsMultipleScenes: true
+    settings:
+      base:
+        SWIFT_VERSION: "5.9"
+        PRODUCT_BUNDLE_IDENTIFIER: com.lextech.VoxelClock
+        DEVELOPMENT_TEAM: ""

@@ -1,0 +1,19 @@
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcscmblueprint
+*.xccheckout
+
+# macOS
+.DS_Store
+
+# Build products
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Screen recordings / captures
+*.MP4
+*.mp4
+*.mov
